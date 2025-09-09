@@ -1,2 +1,0 @@
-# FSDCSEA2025
-hello
