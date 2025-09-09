@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  height: 400px;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+  background-color: red;
+}
+
+.child1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:10px;
+  padding:10px
+}
+
+.sub1{
+    background-color:blue;
+}
+.sub2{
+    background-color:yellow;
+}
+.sub3{
+    background-color:green
+}
+.sub4 {
+    background-color:orange;
+}
